@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/diceimage"
+        android:layout_width="wrap_content"
+        android:layout_height="411dp"
+        android:layout_gravity="center_horizontal"
+        app:srcCompat="@drawable/empty_dice"
+        tools:src="@drawable/empty_dice" />
+
+    <TextView
+        android:id="@+id/result_text"
+        android:layout_width="381dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Welcome to monday night raw"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/deveopps"
+        android:layout_width="235dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="#349C27B0"
+        android:text="deves opps"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:layout_width="291dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:text="introduction"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:ignore="RtlCompat" />
+
+    <Button
+        android:id="@+id/demnoseeme"
+        android:layout_width="253dp"
+        android:layout_height="31dp"
+        android:layout_gravity="bottom|clip_vertical|center_horizontal"
+        android:background="#459C27B0"
+        android:text="Dem no dey see me"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="happy sound"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/learn"
+        android:layout_width="189dp"
+        android:layout_height="32dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#519C27B0"
+        android:text="learn tech "
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/jackson"
+        android:layout_width="255dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="#959C27B0"
+        android:maxLength="@android:integer/config_shortAnimTime"
+        android:text=" jackson"
+        android:textAlignment="center"
+        android:textColor="#F3EBEB"
+        android:textStyle="bold|italic" />
+
+
+</LinearLayout>
